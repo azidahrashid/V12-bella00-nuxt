@@ -1,0 +1,10 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="420" rx="34" fill="#031007"/>
+  <path d="M0 342 C230 220 391 337 640 185 C878 39 1070 116 1400 20" stroke="#47ff68" stroke-opacity="0.38" stroke-width="6"/>
+  <path d="M755 0 H1400 V420 H880 C805 300 794 138 755 0Z" fill="#0f3115"/>
+  <circle cx="1140" cy="206" r="128" fill="#51ff5d" fill-opacity="0.14"/>
+  <circle cx="1238" cy="150" r="46" fill="#fff" fill-opacity="0.2"/>
+  <text x="70" y="170" font-family="Arial Black, Impact, sans-serif" font-size="80" font-style="italic" fill="#68ff69">WELCOME EVENT</text>
+  <text x="74" y="238" font-family="Pretendard, Arial, sans-serif" font-size="34" font-weight="900" fill="#f1fff1">스포츠 · 카지노 · 슬롯 프로모션</text>
+  <text x="74" y="294" font-family="Pretendard, Arial, sans-serif" font-size="24" font-weight="700" fill="#95ff9b">Frontend-only Nuxt recreation</text>
+</svg>

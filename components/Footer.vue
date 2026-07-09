@@ -1,11 +1,16 @@
+<script setup lang="ts">
+const runtimeConfig = useRuntimeConfig()
+const resolveAsset = (path: string) => `${runtimeConfig.app.baseURL.replace(/\/?$/, '/')}${path.replace(/^\//, '')}`
+</script>
+
 <template>
   <footer class="site-footer">
     <div>
-      <img src="/assets/placeholders/bella-logo.svg" alt="BellaBet" />
-      <p>© 2007-2026 BELLABET. Frontend migration scaffold.</p>
+      <img :src="resolveAsset('/assets/site/bella-logo.svg')" alt="BELLABET" />
+      <p>© 2007-2026 BELLABET. Nuxt frontend recreation.</p>
     </div>
     <p class="footer-note">
-      Backend flows, private APIs, payment, betting/session logic and credentials are not included. Connect approved services only through your own Nuxt server routes or API gateway.
+      This project includes UI, routing, modal validation and static demo states only. Backend authentication, payment, wallet, betting and third-party game APIs are intentionally not included.
     </p>
   </footer>
 </template>

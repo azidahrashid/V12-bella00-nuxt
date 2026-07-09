@@ -1,0 +1,7 @@
+{
+  "targetUrl": "https://www.bella00.com/",
+  "status": "partial-scaffold",
+  "reason": "Direct Playwright/container access was blocked by environment network policy. Run scripts/extract-site.mjs locally from an authorized network to capture runtime DOM/CSS.",
+  "sensitiveDataIncluded": false,
+  "backendLogicIncluded": false
+}
